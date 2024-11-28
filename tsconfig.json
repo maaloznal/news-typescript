@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "target": "ESNext",
+        "outDir": "./dist",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
