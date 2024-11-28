@@ -22,8 +22,8 @@ interface INewsResponse {
     articles: INews[];
 }
 
-const apiUrl: string = 'https://newsapi.org/v2/';
-const apiKey: string = '7357a4b2c4354ec18810997f8fb0df2c';
+const apiUrl: string | undefined = process.env.API_URL;
+const apiKey: string | undefined = process.env.API_KEY;
 
 class NewsService {
     private newsContainer: HTMLDivElement | null;
